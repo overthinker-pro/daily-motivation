@@ -7,7 +7,8 @@
 :root {
     --primary-color: #2D0320;
     --secondary-color: #084B83;
-    --text-color: #FEFEE3;
+    --primary-text-color: #FEFEE3;
+    --secondary-text-color: #2b2b2b;
     --font-family: "Playfair Display", serif;
 }
 
@@ -15,4 +16,13 @@ body {
     font-family: var(--font-family);
     color: var(--text-color);
     background-color: var(--primary-color);
+}
+
+#quote {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+  color: var(--secondary-text-color);
 }

@@ -12,7 +12,16 @@
       href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
       rel="stylesheet"
     />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Daily Motivation</title>
   </head>
-  <body></body>
+  <body class="bg-gray flex items-center justify-center min-h-screen">
+
+    <div class="bg-white p-8 rounded-xl shadow-xl max-w-xl text-center">
+        <h1 class="text-2xl font-bold mb-4 text-gray-800">Quote of the Day</h1>
+        <p id="quote" class="text-lg italic text-gray-600"></p>
+    </div>
+    
+  </body>
 </html>
