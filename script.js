@@ -51,9 +51,6 @@ const quotes = [
   "Train your mind to be stronger than your emotions.",
 ];
 
-const today = new Date();
-const dayOfYear = Math.floor(
-  (today - new Date(today.getFullYear(), 0, 0)) / 86400000
-);
-const quote = quotes[dayOfYear % quotes.length];
+const randomIndex = Math.floor(Math.random() * quotes.length);
+const quote = quotes[randomIndex];
 document.getElementById("quote").innerText = quote;
