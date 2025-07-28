@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #2D0320;
+    --secondary-color: #084B83;
+    --text-color: #FEFEE3;
+    --font-family: "Playfair Display", serif;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--text-color);
+    background-color: var(--primary-color);
+}
